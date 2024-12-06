@@ -1,0 +1,143 @@
+1. What is SQL?
+
+Answer:-
+SQL (Structured Query Language) is a standard programming language used to manage and manipulate relational databases. It allows users to perform operations like querying, updating, and deleting data, and creating and modifying database structures.
+
+
+2. What is the difference between DELETE, TRUNCATE, and DROP?
+
+Answer:-
+DELETE: Deletes specific rows based on a condition and can be rolled back.
+TRUNCATE: Removes all rows from a table, resets auto-increment values, and cannot be rolled back.
+DROP: Deletes the entire table, including its structure.
+
+
+3. What is the purpose of the WHERE clause?
+
+Answer:-
+The WHERE clause filters records in a query based on specified conditions, returning only matching rows.
+
+
+4. What is the difference between INNER JOIN and OUTER JOIN?
+
+Answer:-
+INNER JOIN: Returns rows with matching data in both tables.
+OUTER JOIN: Includes unmatched rows in addition to matched rows (LEFT, RIGHT, or FULL OUTER).
+
+
+5. What does the COUNT() function do?
+
+Answer:-
+The COUNT() function returns the number of rows in a table or matching a specific condition.
+
+
+
+6. What is the use of GROUP BY?
+
+Answer:-
+GROUP BY groups rows sharing a value in a specified column and applies aggregate functions like SUM, COUNT, etc., on each group.
+
+
+
+7. What does the HAVING clause do?
+
+Answer:-
+The HAVING clause filters groups after the GROUP BY operation based on conditions.
+
+
+
+8. What is the use of MIN() and AVG() functions?
+
+Answer:-
+MIN(): Returns the smallest value in a column.
+AVG(): Calculates the average value of a numeric column.
+
+
+
+9. What is a subquery?
+
+Answer:-
+A subquery is a query within another query. It provides intermediate results to the main query.
+
+
+
+10. What is a UNION operator?
+
+Answer:-
+The UNION operator combines results from two or more SELECT statements and removes duplicates.
+
+
+
+11. What is the difference between UNION and UNION ALL?
+
+Answer:-
+UNION: Combines results from multiple queries and removes duplicates.
+UNION ALL: Combines results without removing duplicates.
+
+
+
+12. What is a CASE statement in SQL?
+
+Answer:-
+A CASE statement provides conditional logic in SQL queries, similar to an "if-else" construct.
+
+
+
+13. What are SQL constraints?
+
+Answer:-
+SQL constraints are rules enforced on table columns to maintain data integrity. Examples include NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, and CHECK.
+
+
+
+14. What is the difference between PRIMARY KEY and FOREIGN KEY?
+
+Answer:-
+PRIMARY KEY: Uniquely identifies each row in a table.
+FOREIGN KEY: Establishes a relationship between two tables by referencing the primary key in another table.
+
+
+
+15. What is a unique constraint?
+
+Answer:-
+A UNIQUE constraint ensures that all values in a column are distinct.
+
+
+
+16. What is a foreign key in SQL?
+
+Answer:-
+A FOREIGN KEY is a column or combination of columns that establishes a link between data in two tables by referencing a PRIMARY KEY in another table.
+
+
+
+17. What is the purpose of the ALL keyword in SQL?
+
+Answer:-
+The ALL keyword compares a value against all values returned by a subquery.
+
+
+
+18. What is the purpose of the ANY keyword in SQL?
+
+Answer:-
+The ANY keyword compares a value against any value in a list or subquery.
+
+
+
+19. What are the two main wildcard characters in SQL?
+
+Answer:-
+%: Matches zero or more characters.
+_: Matches a single character.
+
+
+
+20. What is the purpose of the BETWEEN operator in SQL?
+
+Answer:-
+The BETWEEN operator filters records with values within a specified range.
+
+
+
